@@ -1,0 +1,28 @@
+.navbar-container {
+    margin-top: 2%;
+    background-color: rgba(128, 128, 128, 0.3);
+    position: fixed;
+    max-width: 100%;
+    left: 1vw;
+    right: 1vw;
+    border-radius: 0.5vw;
+    backdrop-filter: blur(2px);
+    z-index: 1000;
+   /* overflow: hidden;
+    white-space: nowrap;*/
+    
+}
+.nav-content {
+    display: flex;
+    align-items: center;
+    gap: 0.5vw;
+    justify-content: center;
+    background-color: transparent;
+    margin: 0 12vw;
+    overflow: hidden;
+    white-space: normal;
+    max-height: 7.2vw;
+    min-height: 7.2vw;
+}
+
+
